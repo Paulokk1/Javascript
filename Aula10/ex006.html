@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #area {
+            background-color: aqua;
+            color: crimson;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Clique
+    </div>
+    <script>
+        var ent = document.getElementById('area')
+        ent.addEventListener('click', clicar)
+        ent.addEventListener('mouseenter', entrar)
+        ent.addEventListener('mouseout', saiu)
+
+        var ent = document.getElementById('area')
+
+        function clicar() {
+            ent.style.backgroundColor = 'rgb(0, 0, 0)'
+            ent.innerText = 'Clicou!'
+        }
+        function entrar() {
+            ent.style.width = '400px'
+            ent.style.height = '400px'
+            ent.style.lineHeight = '400px'
+        }
+        function saiu() {
+            ent.style.width = '300px'
+            ent.style.height = '300px'
+            ent.style.lineHeight = '300px'
+        }
+    </script>
+</body>
+</html>
