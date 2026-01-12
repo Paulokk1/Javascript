@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="vel" id="ivel"> Km/h
+    <input type="button" value="Verificar" onclick="multa()">
+    <div id="res1">
+    </div>
+    <div id="res2"></div> 
+    <script>
+        function multa() {
+            var txtmul = document.getElementById('ivel')
+            var mul = Number(txtmul.value)
+        var res = document.getElementById('res1')
+        res.innerHTML = `Sua velocidade é ${mul}`
+        if (mul > 60) {
+            res2.innerHTML = `Você foi <strong>multado</strong>, dirija mais devagar`
+        } 
+        else {
+            res2.innerHTML = `Você está na velocidade correta!`
+        }         
+    }
+    </script>
+    <h1>Qual país você mora</h1>
+    Qual o seu país dentre os 3 dá lista:
+    In
+</body>
+</html>
