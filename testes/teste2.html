@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual país você mora</h1>
+    Qual o seu país dentre os 3 dá lista:
+    <form action="" method="post">
+        <input type="radio" name="pais" id="Bra"> <label for="Bra">Brasil</label> <br>
+        <input type="radio" name="pais" id="Eua"> <label for="Eua">Estados Unidos</label> <br>
+        <input type="radio" name="pais" id="Fra"> <label for="Fra">França</label>
+            <br>
+        <input type="button" value="Verificar" onclick="chek()">
+    </form>
+    <div id="respa"></div>
+    <script>
+        function chek() {
+        var bra1 = document.getElementById('Bra')
+        var eua1 = document.getElementById('Eua')
+        var fra1 = document.getElementById('Fra') 
+        var respa1 = document.getElementById('respa')
+        if ( bra1, eua1, fra1   ) {
+            respa1.innerHTML = `Estrangeiro`
+        }
+        else {
+            respa1 {
+                respa1.innerHTML = `Brasileiro`
+            }
+        }
+        }    
+    </script>
+</body>
+</html>
