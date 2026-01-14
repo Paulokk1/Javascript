@@ -1,0 +1,27 @@
+@charset "UTF-*";
+
+h1 {
+    text-align: center;
+    
+}
+
+section {
+    background: blue;
+    width: 60vw;
+    height: 55vh;
+    margin: auto;
+    border-radius: 15px;
+}
+p {
+    text-align: center;
+}
+
+div > img {  
+    width: 350px;
+    height: 350px;
+
+    border-radius: 100%;
+}
+section > div {
+    text-align: center;
+}
