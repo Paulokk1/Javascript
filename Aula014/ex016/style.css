@@ -1,0 +1,33 @@
+@charset "UTF-*";
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background: rgb(44, 44, 100);
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px white;
+}
+p {
+    text-align: center;
+}
+div {
+    padding: 15px;
+}
+
+body {
+    background-color: black;
+}
+
+input[type="button"] {
+    margin-left: 15px;
+}
+
+#ifim {
+    margin-left: 10px;
+}

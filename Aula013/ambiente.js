@@ -1,3 +1,13 @@
+var pa = 1
+
+for (pa; pa <= 10; pa++) {
+    console.log(`oi ${pa}`)
+}
+
+
+
+
+/*
 var c = 1
 
 do {
@@ -6,7 +16,7 @@ do {
 } while (c <= 6) {
     console.log('Cabo fatia')
 }
-
+*/
 
 
 
