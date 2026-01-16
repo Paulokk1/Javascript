@@ -28,3 +28,9 @@ section > div {
 body {
     background-color: aqua;
 }
+
+#isele {
+    margin: auto;
+    text-align: center;
+    margin-left: 44%;
+}
