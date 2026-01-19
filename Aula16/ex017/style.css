@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+}
+section {
+    background-color: rgb(52, 52, 185);
+    width: 70vw;
+    height: 80vh;
+    border-radius: 15px;
+    margin: auto;
+}
+
+select {
+    width: 200px;
+    max-width: 400px;
+    
+}
