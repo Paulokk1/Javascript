@@ -29,8 +29,8 @@ function clicar2() {
 
     res.innerHTML = `Ao todo temos ${cont.length} números registrados <br>`
     cont.sort()
-    res.innerHTML += `O menor número é ${cont[0]} <br>`
-    res.innerHTML += `O maior é ${cont[cont.length - 1]} <br>` 
+    res.innerHTML += `O maior número é ${cont[0]} <br>`
+    res.innerHTML += `O menor é ${cont[cont.length - 1]} <br>` 
     const soma = cont.reduce((total, n) => total + n, 0)
     res.innerHTML += `A soma de todos os valores: ${soma} <br>`
     var media = soma / 2
